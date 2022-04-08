@@ -40,8 +40,8 @@ const NavBar = () => {
               </a>
               <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                 <li>
-                  <NavLink className='dropdown-item' to='#'>
-                    DemoFirst
+                  <NavLink className='dropdown-item' to='/components/examples'>
+                    Examples
                   </NavLink>
                 </li>
                 <li>
