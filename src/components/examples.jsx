@@ -7,7 +7,6 @@ const Examples = () => {
     height: "200px",
     border: "5px solid black",
   };
-  const popUp = {};
 
   return (
     <div className='position-absolute top-50 start-50 translate-middle'>
@@ -15,10 +14,13 @@ const Examples = () => {
         <div className='row'>
           <div className='col'>
             <Tilt>
-              <img
-                src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
-                style={myStyle}
-              />
+              <div className='sc-bdvvtL hYeXfE'>
+                <img
+                  src='http://image.tmdb.org/t/p/w500/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg'
+                  className='card-img-top'
+                  style={myStyle}
+                />
+              </div>
             </Tilt>
           </div>
           <div className='col'>
